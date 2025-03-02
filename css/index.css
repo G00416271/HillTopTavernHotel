@@ -1,0 +1,44 @@
+
+#title{
+    color:white;
+    font-family: 'Cinzel', 'Helvetica';
+    font-size: 2em;
+
+    
+}
+
+#navbar {
+    background-color:var(--HTred) !important;
+}
+
+#menu-toggler{
+    background-color:aliceblue !important;
+}
+
+.carousel-btn{
+    color: red !important;
+}
+
+.carousel{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1); /* Dark faded effect */
+    filter: brightness(60%); /* Dark faded effect */
+
+}
+
+.carousel-island {
+    width: 80px;  
+    height: 80px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 10; 
+}
+
+.carousel-island img {
+    width: 100%; 
+    height: 100%;
+    object-fit: contain;
+}
+
+
