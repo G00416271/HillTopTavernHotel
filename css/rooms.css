@@ -1,0 +1,49 @@
+#body{
+    font-family: 'Montserrat', 'ariel' !important;
+}
+
+#sortBar {
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+    background-color: var(--HTred);
+}
+
+#rooms{
+    height: 100px;
+}
+.card-img-top{
+    width:50%;
+    max-height: 350px;
+    object-fit:cover;
+}
+
+#rooms .card-body ul {
+    border:10px red;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Style the unordered list inside the card */
+#rooms .card-body ul {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0;
+    margin: 10px 0;
+    display: flex; /* Makes the list items align in a row */
+    flex-wrap: wrap; /* Ensures items wrap if they exceed the container width */
+    gap: 10px; /* Adds spacing between list items */
+}
+
+#rooms .card-body ul li {
+    background-color: #f8f9fa; /* Light background */
+    padding: 5px 10px;
+    border-radius: 5px; /* Rounded corners */
+    font-size: 14px;
+    font-weight: bold;
+    color: #333; /* Dark text */
+    border: 1px solid #ddd; /* Light border */
+}
+
+
+#rooms .card-body ul li:first-child {
+    font-weight: bold;
+}

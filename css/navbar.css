@@ -1,0 +1,138 @@
+.small-screen { display: none; }
+.large-screen { display: block; }
+
+@media screen and (max-width: 600px) {
+    .small-screen { display: block; letter-spacing: 0.5rem !important; }
+    .large-screen { display: none; }
+}
+
+#title{
+    color:white;
+    font-family: 'Cinzel', 'Helvetica';
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    
+}
+
+#navbar {
+    background-color:var(--HTred) !important;
+    height: 80px;
+    bottom: 10px;
+    z-index: 10;
+}
+
+#menu-toggler{
+    background-color:var(--HTlred) !important;
+}
+
+.navbar-nav{
+    float: right !important;
+    margin-left: auto !important;
+    font-family: 'montserrat', sans-serif;
+    font-size: 1.2em;
+    background-color: var(--HTred) !important;
+    padding: 20px 80px 0 40px !important;
+    z-index: 10 !important;
+}
+
+.navbar-nav a{
+    color:white !important;
+    padding-bottom: 0px !important;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 990Px) {
+    .navbar-nav a{
+        padding-bottom: 20px !important;
+    }
+}
+
+.navbar-nav a:hover  {
+    text-decoration: underline var(--HTblue) !important;
+    color: var(--HTgreen) !important;
+}
+
+
+#cta_book_now{
+    background-color:var(--HTgreen) !important;
+    color:white !important;
+    font-family: 'montserrat', sans-serif;
+    font-size: 1.2em;
+    font-weight: 300s;
+    border-radius: 10px;
+}
+
+#cta_book_now:hover{
+    background-color:var(--HTblue) !important;
+    color:white !important;
+}
+
+
+/*footer*/
+
+
+footer {
+    background: var(--HTred);
+    color: #fff;
+    padding: 20px 0;
+    font-family: 'Cinzel', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-container div {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+h3, h4 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+ul li a {
+    color: #bbb;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+ul li a:hover {
+    color: #fff;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #bbb;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    background-color: var(--HTlred);
+    color: BLACK;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #444;
+    margin-top: 10px;
+}
+
